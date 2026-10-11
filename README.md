@@ -1,4 +1,4 @@
-# CalcX — Smart Calculator & Currency Converter
+# xSmart Calculator & Currency Converter
 
 A responsive, portfolio-ready React app featuring a keyboard-enabled calculator, currency conversion using official reference rates, local history, and light/dark themes.
 
@@ -28,20 +28,8 @@ npm run preview
 ```
 The production site is created in `dist/`.
 
-## Deploy free
-### Vercel
-1. Push this folder to a public GitHub repository.
-2. Sign in to https://vercel.com and select **Add New → Project**.
-3. Import the repository. Framework: Vite; build command: `npm run build`; output: `dist`.
-4. Click Deploy. No environment variables are required.
-
-### Netlify
-1. Connect the GitHub repository at https://app.netlify.com.
-2. Build command: `npm run build`; publish directory: `dist`.
-3. Deploy. The included `netlify.toml` supplies these settings.
-
-### GitHub Pages
-Possible with a GitHub Actions workflow and a matching Vite `base` path; Vercel or Netlify is simpler for first-time deployment.
+## live Demo
+https://xsmartcalulator.netlify.app
 
 ## Features
 - Calculator: +, −, ×, ÷, percentage, sign toggle, decimal, backspace, clear, chained operations and keyboard shortcuts.
